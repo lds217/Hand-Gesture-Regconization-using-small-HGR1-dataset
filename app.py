@@ -92,7 +92,7 @@ except FileNotFoundError:
     exit()
 
 def load_reference_image(class_name):
-    class_folder_path = os.path.join("Data/output/test", class_name)
+    class_folder_path = os.path.join("label/test", class_name)
     if os.path.isdir(class_folder_path):
         image_files = [f for f in os.listdir(class_folder_path) if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
         if image_files:
