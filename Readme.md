@@ -58,6 +58,8 @@ Make sure you install all the dependencies in `requirements-run.txt` and then ju
 
 You can also download from Hugging_face with this [link](https://huggingface.co/lds217/HGR1-resnet50-transferlearning/tree/main).
 
+Please be patient because it will take multiple times on weak machines to run it. If I have more time I would implement a framerate limiter so it can adapt every devices
+
 ## Conclusion
 This project was a great exercise in working with a small dataset. Different approaches resulted in varying levels of accuracy, and the project can be further modified and improved.
 
