@@ -6,7 +6,7 @@ Last year, I visited a charity school in Vietnam for children who are deaf and h
 ## This Project
 In this project, I use my experience in Computer Vision and Data Science to push the limits of a small dataset and explore how much accuracy can be achieved. I am using ResNet50 for its excellent performance and transfer learning to improve the model's effectiveness. The results are noticeable when comparing the 99% accurate ResNet50 model to the 96% fine-tuned model.
 
-## How to Install
+## How to Run
 Start by cloning the repository:
 
 ```bash
@@ -15,17 +15,25 @@ git clone https://github.com/lds217/Hand-Gesture-Recognition-using-small-HGR1-da
 
 Create a virtual environment with Python **3.8 - 3.10**, and then install the required dependencies:
 
+**For training:**
 ```bash
-pip install -r requirements.txt
+pip install -r requirements-train.txt
+```
+**For runing:**
+```bash
+pip install -r requirements-run.txt
 ```
 
+**SHOULD USE DIFFERENT VENV FOR DIFFERENT PURPOSE!**
+
 For GPU acceleration, install CUDA Toolkit 11.2 and cuDNN 8.1.0. To install, download the CUDA Toolkit (exe) and cuDNN (zip), then extract and move the three cuDNN folders to the toolkit directory, replacing the existing files.
+**And remember to downgrade tensorflow to 2.10.1** if you want to use GPU
 
 Next, download the original images and skin masks from the following links:
 - [Original Images](https://sun.aei.polsl.pl/~mkawulok/gestures/hgr1_images.zip)
 - [Skin Masks](https://sun.aei.polsl.pl/~mkawulok/gestures/hgr1_skin.zip)
 
-Structure your project folder like this:
+Structure your project folder like this (for training):
 
 ```
 Hand-Gesture-Recognition-using-small-HGR1-dataset/
@@ -44,7 +52,9 @@ Hand-Gesture-Recognition-using-small-HGR1-dataset/
 3. Continue with training or explore the app functionality.
 
 ### Run the Webcam App
-Make sure you're in the virtual environment. Run the `app.py` file, ensuring that you have completed at least two tasks from the notebook. Choose the model to download from Hugging Face and start experimenting with the app.
+For the app you don't need to do anything else!
+
+Make sure you install all the dependencies in `requirements-run.txt` and then just run `app.py`.
 
 You can also download from Hugging_face with this [link](https://huggingface.co/lds217/HGR1-resnet50-transferlearning/tree/main).
 
