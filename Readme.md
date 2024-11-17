@@ -38,13 +38,15 @@ Hand-Gesture-Recognition-using-small-HGR1-dataset/
 └── gesture_recognize.ipynb
 ```
 
-## Run the Notebook
+### Run the Notebook
 1. Run the "Import libraries" cell to check for dependencies.
 2. Run the "Apply mask to hands and separate into folders" task to extract the hands from images.
 3. Continue with training or explore the app functionality.
 
-## Run the Webcam App
+### Run the Webcam App
 Make sure you're in the virtual environment. Run the `app.py` file, ensuring that you have completed at least two tasks from the notebook. Choose the model to download from Hugging Face and start experimenting with the app.
+
+You can also download from Hugging_face with this [link](https://huggingface.co/lds217/HGR1-resnet50-transferlearning/tree/main).
 
 ## Conclusion
 This project was a great exercise in working with a small dataset. Different approaches resulted in varying levels of accuracy, and the project can be further modified and improved.
