@@ -1,6 +1,3 @@
-Here's the markdown for the intro of your repo:
-
-```markdown
 # Hand Gesture Recognition using Small HGR1 Dataset
 
 ## Motivation
@@ -51,6 +48,4 @@ Make sure you're in the virtual environment. Run the `app.py` file, ensuring tha
 
 ## Conclusion
 This project was a great exercise in working with a small dataset. Different approaches resulted in varying levels of accuracy, and the project can be further modified and improved.
-```
 
-This should serve as a comprehensive introduction for your GitHub repo. Let me know if you'd like to adjust any sections!
