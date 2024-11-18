@@ -4,7 +4,7 @@
 Last year, I visited a charity school in Vietnam for children who are deaf and have disabilities. I wanted to find a way to connect with them, and I thought that sign language could be a solution. While there are many sign language recognition models out there, I decided to create my own. Despite not having access to a powerful PC cluster or a large dataset, I aimed to improve accuracy using a small dataset to see how effective it can be.
 
 ## This Project
-In this project, I use my experience in Computer Vision and Data Science to push the limits of a small dataset and explore how much accuracy can be achieved. I am using ResNet50 for its excellent performance and transfer learning to improve the model's effectiveness. The results are noticeable when comparing the 99% accurate ResNet50 model to the 96% fine-tuned model.
+In this project, I use my experience in Computer Vision and Data Science to push the limits of a small dataset and explore how much accuracy can be achieved. I am using ResNet50 for its excellent performance and transfer learning to improve the model's effectiveness. The results are noticeable when comparing the 99% accurate ResNet50 model to the 96% fine-tuned model. The Resnet50 seems to be too generalized and inefficient. However after transfer learning and a little bit of fine-tuning the model works much better!
 
 ## How to Run
 Start by cloning the repository:
